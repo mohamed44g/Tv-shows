@@ -28,6 +28,10 @@ nav {
     margin-top: 10px;
 }
 
+.logo img {
+    width: 2.2em;
+}
+
 .logo-name {
     color: white;
     position: relative;
@@ -339,9 +343,13 @@ footer .links li:hover {
     .Episode-cards {
         gap: 10vh;
     }
-    
-    .Home{
+    .Home {
+        position: relative;
         top: 200px;
+    }
+
+    .Episode-card-img {
+        width: 310px;
     }
 }
 
