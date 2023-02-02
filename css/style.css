@@ -73,7 +73,7 @@ nav {
 
 .Home {
     position: absolute;
-    top: 300px;
+    top: 250px;
 }
 
 .Home p {
@@ -229,7 +229,9 @@ nav {
     text-align: center;
 }
 .stars-detials-img img {
-    border-radius: 100px;
+    border-radius: 90px;
+    height: 180px;
+    width: 180px;
 }
 
 .stars-detials-character p b , .stars-detials-episodes p {
@@ -307,8 +309,8 @@ footer .links li:hover {
 
 @media only screen and (max-width: 600px) {
     .links li {
-        margin-right: 0.5em;
-        font-size: .8em;
+        margin-right: 0.4em;
+        font-size: .7em;
     }
 
     .bg img  {
@@ -343,12 +345,16 @@ footer .links li:hover {
         gap: 10vh;
     }
     .Home {
-        position: relative;
+        position: absolute;
         top: 200px;
     }
 
     .Episode-card-img {
         width: 310px;
+    }
+    .play-icon{
+        position: relative;
+        left: 125px;
     }
 }
 
