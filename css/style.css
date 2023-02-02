@@ -339,6 +339,10 @@ footer .links li:hover {
     .Episode-cards {
         gap: 10vh;
     }
+    
+    .Home{
+        top: 200px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
